@@ -3,32 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <header>
-        <h1> techcon_website </h1>
+        <h1> Contact Us </h1>
     </header>
     
     <nav>
   <ul>
+    <li><a href="index.html">home</a></li>
     <li><a href="about.html">about</a></li>
     <li><a href="schedule.html">schedule</a></li>
     <li><a href="register.html">register</a></li>
-    <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
 
-<main><section>
- <h2>Annual Conference on Modern Technologies</h2>
- <p>Introducing our first full season of The Do Hard Things Challenge, where we're traveling to eight cities across Africa to find the boldest, most innovative entrepreneurs tackling real-world challenges head-on.</p>
+<main>
+ <h2>get in touch</h2>
+<p>Email us at: 
+      <a href="mailto:email@example.com">email@example.com</a>
+    </p>
 
- <video controls width="600">
-    <source src="https://www.youtube.com/watch?v=v3TVOf0v51E" type="video/mp4">
-</video>
-</section>
+<p>Follow us on social media:</p>
+    <ul>
+      <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+      <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+      <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+    </ul>
+
+    <!-- Google Maps Embed -->
+    <h3>Conference Venue</h3>
+    <div style="width:100%;max-width:600px;">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019287715273!2d-122.4194154846818!3d37.77492927975924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064d7df5a7f%3A0xcedb1f8f5d2db6a!2sSan%20Francisco!5e0!3m2!1sen!2sus!4v1633033987655!5m2!1sen!2sus" 
+        width="100%" height="300" style="border:0;" 
+        allowfullscreen="" loading="lazy">
+      </iframe>
+
+<!-- Contact Form -->
+    <h3>Contact Us</h3>
+    <form action="#" method="post">
+      <!-- Name -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+
+      <!-- Message -->
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <br><br>
+
+      <!-- Submit -->
+      <button type="submit">Send Message</button>
+    </form>
 </main>
- <footer><p>Copyright &copy; 2024 TechCon. All rights reserved.</p></footer>
+    <footer><p>Copyright &copy; 2024 TechCon. All rights reserved.</p></footer>
 </body>
 </html>
-
